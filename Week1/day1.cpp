@@ -1,6 +1,8 @@
 class Solution {
 public:
+
     bool isPalindrome(ListNode* head) {
+
         if(head==NULL) return true;
         else if(head->next == NULL) return true;
         else if(head->next->next == NULL) 
@@ -12,6 +14,7 @@ public:
         //Initial goal is to find the mid point using two pointers approach
         ListNode* fast = head;
         ListNode* slow = head;
+
         while(fast && fast->next)
         {
             slow = slow->next;
@@ -49,6 +52,7 @@ public:
             curr = curr->next;
             slow = slow->next;
         }
+
         return true;
     }
 };
