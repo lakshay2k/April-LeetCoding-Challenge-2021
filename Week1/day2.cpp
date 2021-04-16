@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int findMaxForm(vector<string>& strs, int m, int n) {
         
         //creating a 2d vector of nxm
@@ -26,6 +27,7 @@ public:
                 }
             }
         }
+
         return subresults[n][m];
     }
 };
