@@ -2,4 +2,7 @@
 
 ***Daily Problems solved are:***
 
+***1. Palindrome LinkedList using C++***
+
+
 
