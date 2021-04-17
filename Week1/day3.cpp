@@ -16,6 +16,7 @@ public:
         //if it is ( , we push to stack otherwise
         for(int i = 0; i < size(s); i++)
         {
+
             if(s[i] == '(')
                 mystack.push(i);
             //otherwise we pop its equivalent opening bracket
@@ -29,6 +30,7 @@ public:
                     longest = max(longest, i - mystack.top());
             }
         }
+
         return longest;
     }
 };
