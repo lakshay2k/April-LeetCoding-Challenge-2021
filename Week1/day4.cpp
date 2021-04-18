@@ -17,6 +17,7 @@ public:
             myqueue[rear++ % k] = value;
             return true;
         }
+
         return false;
     }
     
@@ -27,6 +28,7 @@ public:
             myqueue[front++ % k] = -1;
             return true;
         }
+
         return false;
     }
     
@@ -50,4 +52,5 @@ public:
         //if last index - front index covers the size of queue, means the queue is full
         return rear - front == k;
     }
+
 };
