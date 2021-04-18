@@ -6,3 +6,5 @@
 
 ***2. Ones and Zeroes in C++ using Dynamic programming approach***
 
+***3. Longest valid parenthesis in C++ using Stack***
+
