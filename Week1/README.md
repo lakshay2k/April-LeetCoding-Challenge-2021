@@ -10,3 +10,5 @@
 
 ***4. Design Circular queue using OOPS concepts in c++***
 
+***5. Global and Local Inversions in C++***
+
