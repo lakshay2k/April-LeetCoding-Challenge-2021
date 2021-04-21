@@ -12,3 +12,6 @@
 
 ***5. Global and Local Inversions in C++***
 
+***6. Minimum operations required to make an array equal C++ easy approach***
+
+
