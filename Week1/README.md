@@ -14,4 +14,5 @@
 
 ***6. Minimum operations required to make an array equal C++ easy approach***
 
+***7. Check if string halves are alike implemented in C++***
 
