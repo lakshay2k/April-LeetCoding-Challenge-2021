@@ -29,6 +29,7 @@ public:
                 continue;
             ans = max(ans,1+D_P(X_corr,Y_corr,matrix));
         }
+
         return subresults[x][y] = ans;
     }
     
@@ -38,14 +39,17 @@ public:
         int n = matrix.size();
         if(n == 0)
             return 0;
+
         int m = matrix[0].size();
         N = n;
         M = m;
+
         //making dp vector of same size of given matrix
         subresults = vector<vector<int>>(n,vector<int>(m,0));
         
         //res stores the length of maximum sequence
         int res = 0;
+
         for(int i=0;i<n;i++)
         {
             for(int j=0;j<m;j++)
@@ -54,6 +58,7 @@ public:
                 res = max(res,D_P(i,j,matrix));
             }
         }
+
         return res;
     }
 };
