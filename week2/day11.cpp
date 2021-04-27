@@ -8,6 +8,7 @@ public:
     //making the dfs recursive function
     void dfs(TreeNode* node, int level)
     {
+
         //if we reach last leaf node then we will stop
         if(node == NULL)
             return;
@@ -23,12 +24,14 @@ public:
             sum = sum + node->val;
         dfs(node->left,level+1);
         dfs(node->right,level+1);
+
     }
     
     int deepestLeavesSum(TreeNode* root) {
         
         //we will start with the root node which is at zero level
         dfs(root,0);
+
         return sum;
     }
     
