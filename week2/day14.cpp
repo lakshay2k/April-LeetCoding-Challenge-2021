@@ -27,6 +27,7 @@ public:
                 l_head->next = head;//here initialy lhead has refernce to l so we are adding it to l
                 l_head = head;// then increment the lhead pointer to next node
             } 
+
             head = head->next;
         }
         
