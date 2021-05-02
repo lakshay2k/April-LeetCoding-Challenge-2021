@@ -3,3 +3,5 @@
 
 ***15. Fibonacci Series using C++***
 
+***16. Remove all adjacent duplicates in string || C++***
+
