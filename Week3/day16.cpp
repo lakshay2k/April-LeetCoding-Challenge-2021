@@ -14,8 +14,10 @@ public:
         
         for(i=0;i<n;i++)
         {
+
             //first we check if it is empty or the other letter matches the already stored letter or not
             char c = s[i];
+
             if(mystack.empty() || c!=mystack.top().first)
                 mystack.push({c,1});
             //in else means the next letter we are storing is same as the previous stored one
@@ -34,6 +36,7 @@ public:
         //till there counts and add them t resultant string
         while(!mystack.empty())
         {
+
             for(i = 0;i<mystack.top().second;i++)
                 result = mystack.top().first + result;
             mystack.pop();
