@@ -10,6 +10,7 @@ public:
         
         //we are adding t1 and t2 in t2 or we can say storing sum of two previous numbers
         int t1=0,t2=1,temp;
+
         for(int i=1;i<n;i++)
         {
             temp=t1;
