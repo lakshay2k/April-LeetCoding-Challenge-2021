@@ -4,6 +4,7 @@ public:
         
         if(matrix.size() == 0)
             return 0;
+
         //extracting the no. of rows and cols
         int rows = matrix[0].size();
         int cols = matrix.size();
@@ -22,6 +23,7 @@ public:
                     1 1 1 1   1 2 3 4
                     1 1 1 1   1 2 3 4
             */
+
             for(int row = 0;row<rows;row++)
                 matrix[row][col]+= matrix[col][row-1];
         }
@@ -36,6 +38,7 @@ public:
                 for(int r=0;r<cols;r++)
                 {
                     colsum += matrix[r][currcol] - (startcol ? matrix[r][startcol-1] : 0);
+
                     //ans gets increamented by 1 only when sum till that row becomes equal to target
                     //dry run for above example
                     ans += res.find(colsum - target)!=res.end() ? res[colsum-target]:0;
