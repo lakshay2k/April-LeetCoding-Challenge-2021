@@ -7,3 +7,8 @@
 
 ***17. Number of submatrices that sum to target using C++***
 
+***18. Remove Nth Node from end of LinkedList using C++***
+
+
+
+
