@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         
         //decalring variables for length and listnode temp to traverse linkedlist
