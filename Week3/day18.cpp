@@ -15,6 +15,7 @@ public:
         }
         
         //if the len is equal to n which means last nth means first node which is head.
+
         if(len == n)
         {
             //first storing the head next link and deleting head and returnig new head
