@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int combinationSum4(vector<int>& nums, int target) {
         
         //creating subresults vector which stores result of dynamic programming- intermediate results
@@ -21,6 +22,7 @@ public:
                 //to make sum upto 2 we need number less than 2 only so using this logic below
                 if(num<=i)
                     dp[i] = dp[i] + dp[i-num];
+
                     //for making 3 we need 1 and then combination of how to make 2 which we have already stored
                     //for making 3 we need 2 and then combination of how to make 1 which we have already stored
                     //for making 3, we can select 3 ,
