@@ -1,7 +1,9 @@
 class Solution {
 public:
+
     void pre(Node* node, vector<int> *ans)
     {
+
         // as we are passing vector by address and taking it as pointer w have to use ->
         //adding the value of root or center node and moving to its children till we reach null
         ans->push_back(node->val);
