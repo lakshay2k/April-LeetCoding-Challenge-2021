@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int minimumTotal(vector<vector<int>>& triangle) {
       
         //we are using the bottom-up approach and value at top i.e t[0][0] gives us the result
