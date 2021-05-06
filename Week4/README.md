@@ -2,5 +2,7 @@
 
 ***22. Brick Wall problem in C++***
 
+***23. Count binary substring in C++***
+
 
 
