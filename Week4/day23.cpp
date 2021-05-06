@@ -1,9 +1,11 @@
 class Solution {
 public:
+
     int countBinarySubstrings(string s) {
         
         //using prev block to store the prev before edge case and curr respectively
         int prev = 0, curr = 1, res = 0;
+
         /*
         ex 0011001100 -> curr =2 , s[i]=1 res = 0 prev =curr(2) curr = 1, 
         s[i]=0 res = 2 prev =2 curr =1, s[i]=1 res = 2+2  prev =2 ,curr1,
