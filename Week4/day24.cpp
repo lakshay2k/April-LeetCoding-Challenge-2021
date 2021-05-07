@@ -24,6 +24,7 @@ public:
     
     void find_cc(int vertices, vector<vector<int>>& c_c)
     {
+
         //creating three vectors to track while traversing
         vector<int> disc(vertices,-1), low(vertices,-1), parent(vertices,-1);
         
@@ -32,6 +33,7 @@ public:
             if(disc[i] == -1)
                 dfs(i,disc,low,parent,c_c);
         }
+
     }
     
     void dfs(int u, vector<int>& disc, vector<int>& low, vector<int>& parent, vector<vector<int>>& c_c)
