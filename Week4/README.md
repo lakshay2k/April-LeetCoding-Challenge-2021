@@ -4,5 +4,7 @@
 
 ***23. Count binary substring in C++***
 
+***24. Critical connections in a Network using DFS in C++***
+
 
 
