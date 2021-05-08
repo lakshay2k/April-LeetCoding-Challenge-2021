@@ -6,5 +6,7 @@
 
 ***24. Critical connections in a Network using DFS in C++***
 
+***25. Rotate Image in C++***
+
 
 
