@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int furthestBuilding(vector<int>& heights, int bricks, int ladders) {
         
         //initialising priority queue for keeping the ladders on largest diff
@@ -32,8 +33,7 @@ public:
                 // we use bricks then diff is less and we have no ladders left
                 else
                     bricks = bricks - diff;
-                cout<<mypq.top();
-                cout<<mypq.size();
+
                 //we bricks are finished then that building is the farthest building
                 if(bricks < 0)
                     return i;
