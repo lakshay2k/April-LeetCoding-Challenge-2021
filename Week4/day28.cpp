@@ -20,6 +20,7 @@ public:
         {
             for(int j=0;j<C;j++)
             {
+
                 //the very first starting posn and posn atr which we encounter obstacle is ignored
                 //means we will not store that in dp array and hence will be zero hence will make no effect
                 if(obstacleGrid[i][j] == 1 || (i==0 && j==0))
