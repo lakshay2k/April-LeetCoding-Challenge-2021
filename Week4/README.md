@@ -12,6 +12,8 @@
 
 ***27. Power of three in C++***
 
+***28. Unique Paths || using Dynamic approach in C++***
+
 
 
 
