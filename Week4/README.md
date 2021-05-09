@@ -10,6 +10,8 @@
 
 ***26. Furthest Building you can reach implemented in C++***
 
+***27. Power of three in C++***
+
 
 
 
