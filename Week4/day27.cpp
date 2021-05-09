@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     bool isPowerOfThree(int n) {
         
         //if we get 1 after dividing the number continuously by 3
@@ -13,6 +14,7 @@ public:
             n=n/3;
         }
         }   
+
         return n==1;
     }
 };
