@@ -19,6 +19,7 @@ public:
         //applying binary search and checking if mid is not equal to mid-1 then only returning mid.
         int low = 0;
         int high = nums.size()-1;
+
         while(low<=high)
         {
             int mid =(low+high)/2;
@@ -43,6 +44,7 @@ public:
         //checking id mid is not equal to number after it, then only returning mid
         int low=0;
         int high = nums.size()-1;
+
         while(low<=high)
         {
             int mid=(low+high)/2;
