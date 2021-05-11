@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     vector<int> powerfulIntegers(int x, int y, int bound) {
         
         //creating set to remove duplicates 
@@ -17,6 +18,7 @@ public:
                 if(y == 1)
                     break;
             }
+
             //if the number is 1 then it does not matter, its power will always be 1
             if(x==1)
                 break;
