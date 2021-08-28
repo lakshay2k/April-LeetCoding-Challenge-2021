@@ -30,6 +30,7 @@ public:
         ListNode* curr = head;
         ListNode* prev = NULL;
         ListNode* next = NULL;
+        
         while(curr != NULL)
         {
             next = curr->next;
